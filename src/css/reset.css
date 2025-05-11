@@ -32,3 +32,25 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+  padding: 20px;
+}
+
+.menu-link {
+  color: #524b4b;
+  font-size: 32px;
+  font-weight: 700;
+  padding: 4px 8px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.menu-link:hover {
+  background-color: #aff0fd;
+}

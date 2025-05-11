@@ -1,0 +1,102 @@
+.back-link {
+    font-size: 16px;
+    color: #1e88e5;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.back-link:hover {
+    color: #1565c0;
+    text-decoration: underline;
+}
+
+.title-timer {
+    font-size: 28px;
+    font-weight: 700;
+    color: #111111;
+    margin: 8px auto;
+}
+
+.timer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    width: 346px;
+    height: 72px;
+    margin: auto;
+}
+
+#datetime-picker {
+    width: 272px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid #808080;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    box-sizing: border-box;
+    padding-left: 16px;
+    margin-bottom: 32px;
+}
+
+#datetime-picker:hover {
+    border: 1px solid #000;
+}
+#datetime-picker:focus {
+    border: 1px solid #4e75ff;
+    outline: none;
+}
+#datetime-picker:disabled {
+    border: 1px solid #808080;
+    background-color: #fafafa;
+}
+
+.btn-timer {
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 75px;
+    height: 40px;
+    background-color: #4e75ff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-timer:hover {
+    background-color: #6c8cff;
+}
+
+.btn-timer:disabled {
+    background-color: #cfcfcf;
+    color: #989898;
+    cursor: not-allowed;
+}
+
+.field {
+    align-items: center;
+}
+
+.value {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2e2f42;
+}
