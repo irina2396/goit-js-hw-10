@@ -35,8 +35,8 @@ img {
 
 .nav-menu {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: start;
+  justify-content: start;
   flex-direction: column;
   gap: 8px;
   padding: 20px;
